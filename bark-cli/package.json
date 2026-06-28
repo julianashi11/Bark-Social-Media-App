@@ -1,0 +1,21 @@
+{
+  "name": "bark-cli",
+  "version": "0.1.0",
+  "description": "Bark — a wireframe social media CLI you are meant to extend.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bark.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "reset": "node bark.js --reset"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.5.2"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.9"
+  }
+}

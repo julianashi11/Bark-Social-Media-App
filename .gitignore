@@ -1,0 +1,4 @@
+node_modules/
+bark-store.json
+dist/
+.DS_Store
